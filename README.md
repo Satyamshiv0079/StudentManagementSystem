@@ -27,6 +27,7 @@ A desktop CRUD application to manage student records, built with Java and MySQL.
 
 ---
 
+
 ## 🗂️ Project Structure
 StudentManagementSystem/
 ├── lib/
