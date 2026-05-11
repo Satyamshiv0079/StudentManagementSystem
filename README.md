@@ -29,22 +29,25 @@ A desktop CRUD application to manage student records, built with Java and MySQL.
 
 
 ## 🗂️ Project Structure
+
+```
 StudentManagementSystem/
 ├── lib/
 │   └── mysql-connector-j-9.7.0.jar
 ├── src/
 │   ├── dao/
-│   │   ├── StudentDAO.java        ← Interface (abstraction layer)
-│   │   └── StudentDAOImpl.java    ← MySQL implementation
+│   │   ├── StudentDAO.java
+│   │   └── StudentDAOImpl.java
 │   ├── db/
-│   │   └── DatabaseConnection.java ← Singleton JDBC connection
+│   │   └── DatabaseConnection.java
 │   ├── model/
-│   │   └── Student.java           ← Entity / POJO
+│   │   └── Student.java
 │   └── ui/
-│       └── MainFrame.java         ← Swing GUI (entry point)
-├── schema.sql                     ← Database schema + sample data
+│       └── MainFrame.java
+├── img.png
+├── schema.sql
 └── README.md
-
+```
 ---
 
 ## ⚙️ Setup Instructions
