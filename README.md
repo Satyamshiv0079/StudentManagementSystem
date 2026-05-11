@@ -22,6 +22,8 @@ A desktop CRUD application to manage student records, built with Java and MySQL.
 ## 🖥️ Screenshots
 
 > App running with 5 students loaded from MySQL database
+> ![Student Management System](img.png)
+
 
 ---
 
