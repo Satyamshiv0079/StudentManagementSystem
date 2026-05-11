@@ -49,7 +49,7 @@ public class MainFrame extends JFrame {
     private int    selectedId = -1;
 
     public MainFrame() {
-        setTitle("Student Management System — Your University Name");
+        setTitle("Student Management System — Galgotias University");
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setSize(1200, 720);
         setMinimumSize(new Dimension(900, 600));
@@ -74,7 +74,7 @@ public class MainFrame extends JFrame {
         JLabel title = new JLabel("🎓  Student Management System");
         title.setFont(F_TITLE);
         title.setForeground(C_ACCENT);
-        JLabel sub = new JLabel("Your University Name · Java + MySQL + Swing + JDBC");
+        JLabel sub = new JLabel("Galgotias University · Java + MySQL + Swing + JDBC");
         sub.setFont(F_SUBTITLE);
         sub.setForeground(C_MUTED);
         JPanel left = new JPanel(new GridLayout(2, 1, 0, 2));
@@ -210,7 +210,7 @@ public class MainFrame extends JFrame {
         lblStatus = new JLabel("Initialising…");
         lblStatus.setFont(F_STATUS);
         lblStatus.setForeground(C_MUTED);
-        JLabel copy = new JLabel("Student Management System © Your University Name");
+        JLabel copy = new JLabel("Student Management System © Galgotias University");
         copy.setFont(F_STATUS);
         copy.setForeground(C_MUTED);
         p.add(lblStatus, BorderLayout.WEST);
