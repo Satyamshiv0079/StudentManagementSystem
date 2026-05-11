@@ -1,6 +1,6 @@
 # 🎓 Student Management System
 
-**Associated with:** Your University Name  
+**Associated with:** Galgotias University   
 **URL:** https://github.com/Satyam0079/StudentManagementSystem  
 **Tech Stack:** Java · MySQL · Swing · JDBC · OOP
 
